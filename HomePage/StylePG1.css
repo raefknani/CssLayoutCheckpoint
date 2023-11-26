@@ -97,7 +97,9 @@ h3 a {
 
 /*end */
 /*countain part */
-
+section{
+    padding-top: 80px;
+}
 .containt {
   text-align: center;
   margin: 30px;
@@ -107,7 +109,7 @@ h3 a {
   color: #00bfa5;
   font-weight: 300;
   font-family: "Roboto", sans-serif;
-  margin-top: 20px;
+  
 }
 #pr1 {
   height: 100px;
@@ -124,6 +126,7 @@ h3 a {
 
 .HomeImage {
   display: inline-block;
+  padding-bottom: 30px;
 }
 .pr12 {
   margin-top: 65px;
@@ -134,14 +137,17 @@ h3 a {
 }
 .box1 {
   background-color: #00ccb1;
-  height: 330px;
+  height: 345px;
   width: 325px;
   border-radius: 15px;
   text-align:left ;
 }
+li div{
+    padding-top: 20px;
+}
 .box2 {
   background-color: #3d83df;
-  height: 330px;
+  height: 345px;
   width: 325px;
   border-radius: 15px;
   text-align:left ;
@@ -149,7 +155,7 @@ h3 a {
 }
 .box3 {
   background-color: #1b2734;
-  height: 330px;
+  height: 345px;
   width: 325px;
   border-radius: 15px;
   text-align:left ;
@@ -175,7 +181,7 @@ h3 a {
     font-size: 25px;
     color: white;
     text-align: left;
-    padding-top: 40px;
+    padding-top: 10px;
     padding-left: 40px;
     
 }
@@ -199,6 +205,23 @@ h3 a {
 
 }
 #sticky-nav ul{
-    margin-left: 190px;
-    margin-right    : 190px;
+    margin-left:190px;
+    margin-right:190px;
+}
+#iconH{
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 40px;
+    color: white;
+}
+#doct{
+    margin-top: 5px;
+    margin-left: 40px;
+    height: 40px;
+}
+#docC{
+    margin-top: 5px;
+    margin-left: 40px;
+    height: 40px;
+
 }
