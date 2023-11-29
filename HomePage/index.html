@@ -1,77 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="icon" type="image/x-icon" href="images/Screenshot_2023-11-26_144437-removebg-preview.png" sizes="32x32">
     <link rel="stylesheet" href="StylePG1.css">
-   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-</head>
 
+    <title>TestDocument</title>
+</head>
 <body>
     <header>
         <nav id="sticky-nav">
             <ul style="padding: 20px;">
                 <li><a href="#"><img src="images/logo-default-group-en.jpg" alt="#" height="35px"></a></li>
-                
-                <li  class="dropdown" id="GHI"><h3><a class="dropbtn" href="#" id="GHIhover">Departments</h3></a>
+
+                <li class="dropdown" id="GHI">
+                    <h3><a class="dropbtn" href="#" id="GHIhover">Departments</h3></a>
                     <div class="dropdown-content">
                         <a href="#">Marketing & PR</a>
                         <a href="#">Customer Success & Sales</a>
                         <a href="#">IT, Product, Data</a>
                         <a href="#">Finance & Administration</a>
                         <a href="#">HR & more</a>
-                    </div> 
+                    </div>
                 </li>
-    
-                <li id="DEF"><h3><a href="#" id="DEFhover">Career</a></h3></li>
-                <li id="ABC"><h3><a href="#" id="ABC">About us</a></h3></li>
+
+                <li id="DEF">
+                    <h3><a href="#" id="DEFhover">Career</a></h3>
+                </li>
+                <li id="ABC">
+                    <h3><a href="#" id="ABC">About us</a></h3>
+                </li>
             </ul>
         </nav>
     </header>
-    
 
     <section>
-        <div class="containt">
-            <img id="HomeImage" class="HomeImage" src="images/Screenshot_2023-11-26_144437-removebg-preview.png" height="55px" alt="#">
+        <div class="part1">
+            <div class="containt">
+            <img id="HomeImage" class="HomeImage" src="images/Screenshot_2023-11-26_144437-removebg-preview.png"
+                height="55px" alt="#">
             <p id="pargraph">Making the healthcare experience more human</p>
             <div class="pr12">
                 <ul>
-                    <li><p id="pr1">We want patients to find the perfect doctor and book an appointment in the most easy way. The patient journey should be enjoyable, and that's why we are always next to them: to help them find the best possible care. Anytime, anywhere.</p>
+                    <li>
+                        <p id="pr1">We want patients to find the perfect doctor and book an appointment in the most easy
+                            way. The patient journey should be enjoyable, and that's why we are always next to them: to
+                            help them find the best possible care. Anytime, anywhere.</p>
                     </li>
-                    <li><p id="pr2">We also help doctors to better manage their practice and build their online reputation. With our integrated end-to-end solution, doctors are able not only to improve their online presence, but also to devote their time to what really matters: their patients.</p>
+                    <li>
+                        <p id="pr2">We also help doctors to better manage their practice and build their online
+                            reputation. With our integrated end-to-end solution, doctors are able not only to improve
+                            their online presence, but also to devote their time to what really matters: their patients.
+                        </p>
                     </li>
                 </ul>
             </div>
+
             <div class="boxes123">
                 <ul>
-                    
-                    <li><div class="box1">
-                        <i id="iconH" class="bi bi-people-fill"></i>
-                        <h3 class="boxesTitles">For patients</h3>
-                        <p class="phrases">Find a doctor, book a visit and solve any health-related doubt</p>
-                    </div></li>
 
-                    <li><div class="box2">
-                        <img id="doct" src="https://www.docplanner.com/icons/icon-doctors.svg">
-                        <h3 class="boxesTitles">For doctors</h3>
-                        <p class="phrases">Save time managing visits and cut no-shows by half</p>
-                    </div></li>
+                    <li>
+                        <div class="box1">
+                            <i id="iconH" class="bi bi-people-fill"></i>
+                            <h3 class="boxesTitles">For patients</h3>
+                            <p class="phrases">Find a doctor, book a visit and solve any health-related doubt</p>
+                            <div class="selection1">
+                                <select class="SelectStyle">
+                                    <option style="color: white;">Choose country</option>
+                                    <option value="" >Argentina</option>
+                                    <option value="">Brazil</option>
+                                    <option value="">Chile</option>
+                                    <option value="">Colombia</option>
+                                    <option value="">Czech</option>
+                                    <option value="">Germany</option>
+                                    <option value="">Italy</option>
+                                    <option value="">Mexico</option>
+                                    <option value="">Portugal</option>
+                                    <option value="">Spain</option>
+                                    <option value="">Turkey</option>
+                                </select>
+                            </div>
+                        </div>
 
-                    <li><div class="box3">
-                        <img id="docC" src="https://www.docplanner.com/icons/icon-clinics.svg">
-                        <h3 class="boxesTitles">For clinics</h3>
-                        <p class="phrases">Deliver an exceptional patient experience in your clinic</p>
-                    </div></li>
+                    </li>
+
+                    <li>
+                        <div class="box2">
+                            <img id="doct" src="https://www.docplanner.com/icons/icon-doctors.svg">
+                            <h3 class="boxesTitles">For doctors</h3>
+                            <p class="phrases">Save time managing visits and cut no-shows by half</p>
+                            <div class="selection1">
+                                <select class="SelectStyle">
+                                    <option style="color: white;">Choose country</option>
+                                    <option value="" >Argentina</option>
+                                    <option value="">Brazil</option>
+                                    <option value="">Chile</option>
+                                    <option value="">Colombia</option>
+                                    <option value="">Czech</option>
+                                    <option value="">Germany</option>
+                                    <option value="">Italy</option>
+                                    <option value="">Mexico</option>
+                                    <option value="">Portugal</option>
+                                    <option value="">Spain</option>
+                                    <option value="">Turkey</option>
+                                </select>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box3">
+                            <img id="docC" src="https://www.docplanner.com/icons/icon-clinics.svg">
+                            <h3 class="boxesTitles">For clinics</h3>
+                            <p class="phrases">Deliver an exceptional patient experience in your clinic</p>
+                            <div class="selectionBox3">
+                                <div class="obejectSell">
+                                    <select class="SelectStyle">
+                                        <option style="color: white;">2 to 20 specialists</option>
+                                        <option value="">Brazil</option>
+                                        <option value="">Czech</option>
+                                        <option value="">Italy</option>
+                                        <option value="">Mexico</option>
+                                        <option value="">Poland</option>
+                                        <option value="">Spain</option>
+                                        <option value="">Turkey</option>
+                                    </select>
+                                    <select class="SelectStyle">
+                                        <option style="color: white;">More than 20 specialists</option>
+                                        <option value="">Brazil</option>
+                                        <option value="">Italy</option>
+                                        <option value="">Mexico</option>
+                                        <option value="">Poland</option>
+                                        <option value="">Spain</option>
+                                    </select>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
-        
         </div>
+
+
+        <div class="part2">
+            <div class="logIMG">
+                <img src="images/Screenshot_2023-11-26_144437-removebg-preview.png" alt="#">
+            </div>
+
+        </div>
+        <div class="part3"></div>
+        <hr>
     </section>
+   
+
+    <footer>
+        <div class="part4"></div>
+    </footer>
+
+
 
 </body>
-
 </html>
