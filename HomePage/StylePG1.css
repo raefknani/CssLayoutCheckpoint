@@ -108,7 +108,7 @@ h3 a {
 .containt {
   text-align: center;
   margin-top: 30px;
-  margin-bottom: 350px;
+  
 }
 
 #pargraph {
@@ -295,6 +295,19 @@ option{
   padding-top: 80px;
   background-color: white;
 }
+.part12{
+  margin-top: 20px;
+  height: 200px;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+  color:#52bdb8;
+}
+.part12 p{
+  margin-left: 250px;
+  margin-top: 80px;
+}
 
 .part2{
   height: 580px;
@@ -304,7 +317,8 @@ option{
 
 .part3{
   background-color: white;
-  height: 2100px;  
+  height: 2000px; 
+  margin-bottom: 50px; 
 }
 
 .part4{
