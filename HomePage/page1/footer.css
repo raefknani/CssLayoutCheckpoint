@@ -1,0 +1,56 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+li {
+  display: inline-block; /* Change to inline-block for horizontal alignment */
+  margin-right: 20px; /* Adjust spacing between list items as needed */
+  color: 250px;
+}
+
+ul {
+  list-style-type: none;
+}
+.HorLine{
+    height: 0.1px;
+    background-color: rgba(128, 128, 128, 0.14);
+  }
+  
+  .part4{
+    text-align: center;
+    margin-top: 35px;
+    padding-bottom: 20px;
+  }
+  
+  
+  
+  #pr41,#pr42{
+    font-family: "Roboto", sans-serif;
+    color: #808383;
+    font-size: 12px;
+  
+  }
+  
+  
+  p a{
+    color: rgba(0, 0, 255, 0.719);
+    text-decoration: none;
+  }
+  
+  p a:hover{
+    text-decoration: underline;
+  }
+  
+  
+  
+  .part4{
+    height: 50px;   
+  }

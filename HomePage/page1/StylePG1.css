@@ -19,90 +19,6 @@ ul {
   list-style-type: none;
 }
 
-#GHI {
-  float: right;
-  margin-top: 10px;
-}
-
-#DEF {
-  float: right;
-  margin-top: 10px;
-}
-
-#ABC {
-  float: right;
-  color: #00bfa5;
-  margin-top: 5px;
-  margin-right: 20px;
-}
-
-h3 {
-  font-weight: 100;
-  font-size: 17px;
-}
-
-header {
-  padding-right: 210px;
-  padding-left: 210px;
-  
-}
-
-h3 a {
-  text-decoration: none;
-  color: #ababab;
-}
-
-#GHIhover:hover {
-  color: #00bfa5;
-}
-
-#DEFhover:hover {
-  color: #00bfa5;
-}
-
-/* dropdown countent  */
-
-.dropbtn {
-  color: #ababab;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 250px;
-  margin-left: -50px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: #ababab;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: #f1f1f1;
-  color: #00bfa5;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/*end */
-
 
 /*end */
 .containt {
@@ -159,14 +75,18 @@ li div{
 
 .box1 {
   background-color: #00ccb1;
+  animation: mymove;
+  transition: 5s;
 }
 
 .box2 {
   background-color: #3d83df;
+
 }
 
 .box3 {
   background-color: #1b2734;
+
 }
 
 .boxes123 {
@@ -321,9 +241,7 @@ option{
   margin-bottom: 50px; 
 }
 
-.part4{
-  height: 50px;   
-}
+
 
 .logIMG{
   
@@ -514,28 +432,12 @@ button:hover{
   text-align: center;
 }
 
-.HorLine{
-  height: 0.1px;
-  background-color: rgba(128, 128, 128, 0.14);
-}
 
-.part4{
-  text-align: center;
-  margin-top: 35px;
-  padding-bottom: 20px;
-}
 
-#pr41,#pr42{
-  font-family: "Roboto", sans-serif;
-  color: #808383;
-  font-size: 12px;
 
-}
 
-p a{
-  color: rgba(0, 0, 255, 0.719);
-  text-decoration: none;
-}
-p a:hover{
-  text-decoration: underline;
+
+
+ img{
+
 }
