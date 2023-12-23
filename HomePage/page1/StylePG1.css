@@ -75,8 +75,6 @@ li div{
 
 .box1 {
   background-color: #00ccb1;
-  animation: mymove;
-  transition: 5s;
 }
 
 .box2 {
@@ -293,9 +291,7 @@ option{
   bottom: 645px;
 }
 
-#sticky-nav{
-  z-index: 20;
-}
+
 /* header part */ 
 /* values : sticky-nav,dropdown,GHI,dropbtn,GHIhover,dropdown-content,DEF,DEFhover,ABC*/
 .BOX1,.BOX2,.BOX3,.BOX4{
