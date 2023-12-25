@@ -42,14 +42,14 @@ h3 {
 }
 
 header {
-  padding-right: 210px;
-  padding-left: 210px;
+ 
   z-index: 20;
   
 }
 #sticky-nav{
   z-index :20 ;
-  opacity: 0.95;
+
+  
 }
 
 h3 a {
